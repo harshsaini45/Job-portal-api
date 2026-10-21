@@ -11,4 +11,4 @@ class UserModel(Base):
     username=Column(String,nullable=False,unique=True)
     password=Column(String,nullable=False)
     email=Column(String,unique=True)
-    # role = Column(String, nullable=False, default="job_seeker")
+    role = Column(String, nullable=False, default="job_seeker")
